@@ -19,7 +19,7 @@
                 <router-link to="/info/1" tag="div" class="person_head pic1"></router-link>
                 <!-- 聊天盒子 -->
                 <div class="person_chatbox">
-                    {{ item.text }}
+                    {{item.text}}
                 </div>
             </div>
             <!-- 我 -->

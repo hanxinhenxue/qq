@@ -49,34 +49,34 @@
               </div>
               <!-- 第一个分组内的好友 -->
               <ul class="list" v-show="flag">
-                <li>
+                <router-link tag="li" to="/chating/1">
                   <div class="lt pic1"></div>
                   <div class="rt">
                     <p class="name">寒心</p>
                     <p class="status">[WIFI在线] 逆天寒心了解一下？</p>
                   </div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/chating/2">
                   <div class="lt pic2"></div>
                   <div class="rt">
                     <p class="name">恨雪</p>
                     <p class="status">[移动4g] 无妄参合，想试试吗？</p>
                   </div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/chating/3">
                   <div class="lt pic3"></div>
                   <div class="rt">
                     <p class="name">神鬼</p>
                     <p class="status">[WIFI在线] 呵呵~</p>
                   </div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/chating/4">
                   <div class="lt pic4"></div>
                   <div class="rt">
                     <p class="name">莫敌</p>
                     <p class="status">[3g] 男人都是大猪蹄子</p>
                   </div>
-                </li>
+                </router-link>
               </ul>
             </div>
         </div>
